@@ -1,0 +1,1 @@
+Gongpe Group landing page\n\nUpload the contents of this folder to the web root for gongpe.com. The hero image is stored at assets/gongpe-headquarters.png. Tailwind CSS is loaded via CDN.\n

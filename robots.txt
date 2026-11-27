@@ -1,0 +1,7 @@
+# robots.txt for Gongpe
+# https://gongpe.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://gongpe.com/sitemap.xml
