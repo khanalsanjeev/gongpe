@@ -1,201 +1,167 @@
 # Gongpe
 
-**A diversified business group developing enterprises across distinct
-areas of economic activity.**
+**Enterprise Support and Technology Solutions**
 
-Official website: <https://gongpe.com>\
-Headquarters: Kathmandu, Nepal
+Gongpe is a business group based in Kathmandu, Nepal. It brings together
+focused consulting and technology practices, supporting businesses
+through clearer decisions, stronger systems, and practical digital
+solutions.
 
-Gongpe brings together different business interests, develops new
-enterprises, and pursues opportunities to create lasting value. The
-group provides a shared corporate foundation and strategic direction for
-business units operating across distinct markets and sectors.
+Website: <https://gongpe.com>\
+Location: Kathmandu, Nepal
 
-## About the Group
+## About Gongpe
 
-Gongpe is being developed with a long-term perspective: building
-businesses, strengthening capabilities, and organising resources around
-meaningful economic opportunities.
+Gongpe develops and supports practical business activities with a focus
+on enterprise support and technology solutions.
 
-Our approach is guided by:
+At present, the group's active work is concentrated in two practices:
 
--   **Purposeful activity** --- organising capital, capabilities, and
-    expertise around real opportunities.
--   **A shared foundation** --- maintaining central strategic direction
-    while allowing individual business units to focus on their markets
-    and operations.
--   **Adaptability** --- evolving as economic environments change and
-    new opportunities emerge.
--   **Value creation** --- prioritising sustainable economic activity
-    and long-term continuity.
+-   **Gongpe Consulting** --- financial and business advisory.
+-   **Gongpe Technologies** --- digital tools, platforms, and
+    information systems.
 
-## Business Units
+The group provides a shared foundation while allowing each practice to
+operate with clear priorities.
 
-Gongpe's current business interests span the following areas:
+## Our Practices
 
-  ----------------------------------------------------------------------------------------------------
-  Business                Focus                   Website
-  ----------------------- ----------------------- ----------------------------------------------------
-  **Gongpe Finance**      Financial services,     [finance.gongpe.com](https://finance.gongpe.com)
-                          corporate finance,      
-                          accounting, capital     
-                          advisory, and financial 
-                          management.             
+### 1. Gongpe Consulting
 
-  **Gongpe Commerce**     Commercial activities,  [commerce.gongpe.com](https://commerce.gongpe.com)
-                          product trade,          
-                          sourcing, and           
-                          distribution networks.  
+**Financial & Business Consulting**
 
-  **Gongpe Travel**       Travel, tourism,        [travel.gongpe.com](https://travel.gongpe.com)
-                          destinations,           
-                          hospitality, and        
-                          curated travel          
-                          experiences.            
+Gongpe Consulting helps businesses strengthen financial visibility,
+improve operational systems, and support informed decisions.
 
-  **Gongpe                Media production,       [media.gongpe.com](https://media.gongpe.com)
-  Entertainment**         digital content,        
-                          events, and creative    
-                          experiences.            
+The practice works with growing enterprises, established businesses, and
+new ventures on:
 
-  **Gongpe Technologies** Software development,   [tech.gongpe.com](https://tech.gongpe.com)
-                          digital platforms,      
-                          cloud infrastructure,   
-                          and technology          
-                          solutions.              
-  ----------------------------------------------------------------------------------------------------
+-   Financial modelling
+-   Business analysis
+-   Accounting systems
+-   Organisation of financial information
 
-Each business unit has its own focus, market, and operating direction,
-supported by the broader vision and development of the group. The group
-may explore additional sectors and opportunities as its capabilities and
-market conditions evolve.
+Website: [consulting.gongpe.com](https://consulting.gongpe.com)
 
-## Organisation
+### 2. Gongpe Technologies
 
-At the group level, Gongpe focuses on:
+**Technology Solutions**
 
--   Overall strategic direction and corporate vision
--   Resource allocation and capital oversight
--   Business-unit governance and ethics
--   New venture development and expansion
+Gongpe Technologies develops practical digital tools and platforms that
+support business operations and information management.
 
-Individual business units focus on their respective markets, customer
-relationships, products and services, and day-to-day commercial
-operations.
+Areas of focus include:
 
-## Website
+-   Digital platforms
+-   Business applications
+-   Data and information systems
+-   Workflow automation
+
+Website: [tech.gongpe.com](https://tech.gongpe.com)
+
+## Operating Priorities
+
+Gongpe's work is guided by three priorities:
+
+### Focused activity
+
+Concentrating resources on a small number of practical businesses rather
+than a wide set of loosely related units.
+
+### Operating relevance
+
+Shaping solutions around real information, process, and decision needs
+in the operating environment.
+
+### Longer horizon
+
+Building capabilities that can be sustained, evaluated, and improved
+over time.
+
+## Products
+
+The Gongpe website also features the following products:
+
+-   **1Pana Accounting** --- [1pana.com](https://1pana.com)
+-   **Nepal Venture** --- [nepalventure.com](https://nepalventure.com)
+
+## Contact
+
+For matters related to a specific practice, please use the relevant
+website:
+
+-   **General group-level enquiries:** [gongpe.com](https://gongpe.com)
+-   **Consulting:**
+    [consulting.gongpe.com](https://consulting.gongpe.com)
+-   **Technologies:** [tech.gongpe.com](https://tech.gongpe.com)
+
+**Location:** Kathmandu, Nepal
+
+## Website Repository
 
 This repository contains the source files for the Gongpe corporate
 website.
 
-The website serves as an institutional presentation platform for the
-group. It introduces Gongpe, presents its business structure, and
-provides corporate information and enquiry routes. Business-specific
-information and commercial details are provided through the respective
-business-unit websites.
+The website presents the group, its two practices, its products, and
+contact information. It is a static website intended for deployment
+through GitHub Pages.
 
 ### Technology
 
 -   HTML
--   Tailwind CSS 4
+-   Tailwind CSS
 -   Static assets
 -   GitHub Pages
 
-Tailwind CSS is compiled into a local, minified stylesheet. The deployed
-website does not rely on the Tailwind CDN or require a server-side
-runtime.
+Tailwind CSS is compiled into a local stylesheet for production. The
+deployed website serves the compiled CSS as a static asset and does not
+need a Tailwind CDN or server-side runtime.
 
 ## Local Development
 
-You need [Node.js](https://nodejs.org/) and npm to rebuild the
-stylesheet.
+Node.js and npm are required to install the development dependency and
+rebuild the Tailwind stylesheet.
 
-1.  Clone or download this repository.
+Install dependencies:
 
-2.  Open a terminal in the project directory.
+``` bash
+npm install
+```
 
-3.  Install the development dependencies:
+Start the Tailwind watcher during development:
 
-    ``` bash
-    npm install
-    ```
+``` bash
+npm run dev
+```
 
-4.  Start the Tailwind watcher while editing:
+Build the minified production stylesheet:
 
-    ``` bash
-    npm run dev
-    ```
+``` bash
+npm run build
+```
 
-5.  Before publishing, generate the production stylesheet:
-
-    ``` bash
-    npm run build
-    ```
-
-The compiled stylesheet is written to:
+The generated stylesheet is written to:
 
 ``` text
 assets/css/tailwind.css
 ```
 
-Commit the generated stylesheet together with any HTML or source CSS
-changes.
+Commit the generated stylesheet along with the website changes before
+deployment. The `node_modules` directory is not required in the deployed
+repository.
 
 ## Deployment
 
-The website is designed for static hosting through GitHub Pages.
+The website is designed for static hosting with GitHub Pages.
 
-1.  Ensure the repository contains `index.html`, the `assets/`
-    directory, and the compiled `assets/css/tailwind.css` file.
-2.  Configure GitHub Pages for the repository using the publishing
-    source selected for the project.
-3.  Commit and push the website files.
-4.  Ensure the custom domain `gongpe.com` is configured in the
-    repository's Pages settings and that its DNS records point to GitHub
-    Pages.
+Ensure the repository includes the website HTML, required assets, and
+the compiled stylesheet. Configure GitHub Pages to publish the
+repository's selected branch or deployment source, then push the updated
+files.
 
-No Tailwind build step is required on the hosting server. The production
-CSS is generated before deployment and served as a static file.
-
-Do not commit `node_modules/`; it is only used locally to build the CSS.
-
-## Repository Structure
-
-``` text
-.
-├── index.html
-├── assets/
-│   ├── css/
-│   │   └── tailwind.css
-│   ├── gongpe-headquarters.png
-│   ├── favicon.ico          # add the site favicon
-│   └── favicon.png          # add the site favicon
-├── src/
-│   └── input.css
-├── package.json
-├── package-lock.json        # generated by npm install
-├── sitemap.xml
-├── robots.txt
-└── README.md
-```
-
-The favicon files should be placed in `assets/` if they are not already
-present in the repository.
-
-## Corporate Enquiries
-
-For group-level enquiries and corporate information, visit
-[gongpe.com](https://gongpe.com). For enquiries relating to a specific
-business unit, use the corresponding website listed above.
-
-## Important Information
-
-Information on the corporate website describes Gongpe as a parent
-business group and outlines the development direction of its business
-units. It is provided for general and institutional information and does
-not, by itself, constitute a direct commercial offer or financial
-solicitation. Specific products, services, availability, and commercial
-terms are determined by the relevant business unit.
+No server-side application or Tailwind compilation is required on GitHub
+Pages. The production stylesheet is generated before deployment and
+served as a static file.
 
 ------------------------------------------------------------------------
 
